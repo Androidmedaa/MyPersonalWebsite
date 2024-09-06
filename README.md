@@ -1,7 +1,14 @@
---  
-I used the flask technology
+# Personal Website
+This project contains the codes of my personal website. 
+The website is developed using the [Flask](https://flask.palletsprojects.com/en/2.3.x/) framework and is a project that showcases basic web development skills.
 
+## Features
+- User login and session management
+- Simple user interface
+- Dynamic content display
+- Compatible across web browsers
 
+  
 you can log in with 
 username: admin
    password: admin 
