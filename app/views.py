@@ -33,7 +33,7 @@ def ContactList():
     return render_template("contact_list.html", username=username, login_auth=login_auth, contactList=contactList)
 
 
-@app.route('/login',methods=['GET','POST']) #login ekranımızı gösterisn diye GET kullandık
+@app.route('/login',methods=['GET','POST']) #We used GET to show our login screen
 def Login():
     if request.method=='POST':
         if request.form:
@@ -57,12 +57,6 @@ def Logout():
     if "username" in session:
         del session["username"]
     return redirect(url_for("Index"))
-
-#sitemizdeki sabir kısımlar için base template kullanıcaz bunu flask teknolojisiyle yapabiliriz
-
-
-
-# .venv\Scripts\activate bu kod ile virtual ortam aktif oluyor
 
 
 
